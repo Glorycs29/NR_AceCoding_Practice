@@ -154,7 +154,12 @@ For this, we must construct an auxiliary graph, whose vertices are the state $(v
 Any edge $(u, v)$ of the original graph in this new column will turn into two edges $((u, 0), (v, 1))$ and $((u, 1), (v, 0))$.
 After that, we run a BFS to find the shortest path from the starting vertex $(s, 0)$ to the end vertex $(t, 0)$.
 
-<summary>## Practice Problems</summary>
+<details align=left>
+<summary>To be practiced!!</summary>
+
+<center>
+<a href="https://github.com/Glorycs29/NR_AceCoding_Practice/blob/main/Day-52_DFS_Graph/Problems.md">
+
 
 * [SPOJ: AKBAR](http://spoj.com/problems/AKBAR)
 * [SPOJ: NAKANJ](http://www.spoj.com/problems/NAKANJ/)
@@ -180,3 +185,6 @@ After that, we run a BFS to find the shortest path from the starting vertex $(s,
 * [CSES - Labyrinth](https://cses.fi/problemset/task/1193)
 * [CSES - Message Route](https://cses.fi/problemset/task/1667/)
 * [CSES - Monsters](https://cses.fi/problemset/task/1194)
+
+</center>
+</a>
