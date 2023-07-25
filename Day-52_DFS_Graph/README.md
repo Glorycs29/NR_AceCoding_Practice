@@ -1,6 +1,4 @@
-# DFS:
-
-# Depth First Search
+# DFS:  Depth First Search
 
 Depth First Search is one of the main graph algorithms.
 
@@ -113,6 +111,11 @@ void dfs(int v) {
 	time_out[v] = dfs_timer++;
 }
 ```
-<summary>
+<details align=center>
+<summary>To be practiced!!</summary>
 
-  </summary>
+<center>
+<a href="https://github.com/Glorycs29/NR_AceCoding_Practice/blob/main/Day-52_DFS_Graph/Problems.md">
+ </a>
+</center>
+
