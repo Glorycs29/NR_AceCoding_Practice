@@ -29,10 +29,9 @@ You can also calculate the lengths of the shortest paths (which just requires ma
 
 ## Implementation
 
-We write code for the described algorithm in C++ and Java.
+We write code for the described algorithm in C++
+```
 
-=== "C++"
-    ```cpp
     vector<vector<int>> adj;  // adjacency list representation
     int n; // number of nodes
     int s; // source vertex
@@ -56,9 +55,9 @@ We write code for the described algorithm in C++ and Java.
             }
         }
     }
-    ```
+```
 === "Java"
-    ```java
+```
     ArrayList<ArrayList<Integer>> adj = new ArrayList<>(); // adjacency list representation
         
     int n; // number of nodes
@@ -84,12 +83,12 @@ We write code for the described algorithm in C++ and Java.
             }
         }
     }
-    ```
+```
     
 If we have to restore and display the shortest path from the source to some vertex $u$, it can be done in the following manner:
     
 === "C++"
-    ```cpp
+```
     if (!used[u]) {
         cout << "No path!";
     } else {
@@ -101,9 +100,9 @@ If we have to restore and display the shortest path from the source to some vert
         for (int v : path)
             cout << v << " ";
     }
-    ```
+```
 === "Java"
-    ```java
+```
     if (!used[u]) {
         System.out.println("No path!");
     } else {
@@ -114,7 +113,7 @@ If we have to restore and display the shortest path from the source to some vert
         for(int v : path)
             System.out.println(v);
     }
-    ```
+```
     
 ## Applications of BFS
 
