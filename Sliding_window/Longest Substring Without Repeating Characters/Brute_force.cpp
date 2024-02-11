@@ -1,4 +1,4 @@
-
+// enumerating every possible substring
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
